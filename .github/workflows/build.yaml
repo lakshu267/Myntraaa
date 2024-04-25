@@ -18,3 +18,4 @@
     docker-scout quickview lakshu/myntra:latest
     docker-scout cves lakshu/myntra:latest
 - name: Run the container
+  run: docker run -d --name myntra -p 3000:3000 lakshu/myntra:latest
